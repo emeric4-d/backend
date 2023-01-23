@@ -9,7 +9,7 @@ import { User } from './product/product.entity';
     ProductModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
+      host: 'database-1.cvjqvcxuwbec.us-east-1.rds.amazonaws.com',
       port: 3306,
       username: 'root',
       password: '',
