@@ -13,7 +13,7 @@ import { User } from './product/product.entity';
       port: 3306,
       username: 'admin',
       password: '',
-      database: 'database-1',
+      database: 'testbd',
       entities: [User],
       autoLoadEntities: true,
       synchronize: true,
