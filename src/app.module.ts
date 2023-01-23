@@ -9,11 +9,11 @@ import { User } from './product/product.entity';
     ProductModule,
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'testbd.cvjqvcxuwbec.us-east-1.rds.amazonaws.com',
+      host: 'database-1.cvjqvcxuwbec.us-east-1.rds.amazonaws.com',
       port: 3306,
       username: 'admin',
       password: 'franck45',
-      database: 'database-1',
+      database: 'backendb',
       entities: [User],
       autoLoadEntities: true,
       synchronize: true,
