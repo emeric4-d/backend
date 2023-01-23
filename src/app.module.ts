@@ -12,7 +12,7 @@ import { User } from './product/product.entity';
       host: 'testbd.cvjqvcxuwbec.us-east-1.rds.amazonaws.com',
       port: 3306,
       username: 'admin',
-      password: '',
+      password: 'franck45',
       database: 'testbd',
       entities: [User],
       autoLoadEntities: true,
